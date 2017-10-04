@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Search place with  zip code</title>
+</head>
+<body>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+Enter Zip code: <input type='text' name='pin'/> 
+<input type='submit' name="send" value='Get location'/>
+</form>
+</body>
+</html>

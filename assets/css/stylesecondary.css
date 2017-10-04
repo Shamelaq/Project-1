@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-/*html{
+*html{
     position: relative;
     min-height: 100%;
 }
@@ -83,7 +83,7 @@ button, input, select, textarea {
     height: 200px;
     width:100%;
     text-align: center;
-/*    border-color: #FF8C00;
+*    border-color: #FF8C00;
     border-width: 2px;
     border-style: solid;
     color: white;
@@ -105,7 +105,7 @@ button, input, select, textarea {
   border-style: solid;
   color: gray;
   padding:10px;
-/*  margin-bottom: 40px;*/
+*  margin-bottom: 40px;*/
   text-align: center;
   background-color: transparent;
 }

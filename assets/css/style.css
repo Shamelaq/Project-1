@@ -1,5 +1,5 @@
 
-/*body {
+*body {
    background-image: url("../images/background.jpg");
 	background-size: 100%;
     background-repeat: no-repeat;
@@ -90,3 +90,31 @@ button, input, select, textarea {
     font-size: inherit;
     line-height: inherit;
 }*/
+
+/* MEDIA QUERRIES */
+@media screen and (min-width: 900px) {
+  control-label {
+    padding: 1rem 3rem;
+  }
+}
+
+
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+    control-label {
+      display: flex;
+    }
+  }
+}@media screen and (min-width: 400px) {
+  control-label {
+    padding: 3rem 7rem;
+  }
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 400px) {
+    control-label {
+      display: flex;
+    }
+  }
+}
